@@ -1,50 +1,45 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
 .container{
 background-color:rgb(247, 232, 232);
-height: 2000px;;
+height: 800px;;
 width:  2000px;
 display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
 row-gap:  15px;
 column-gap: 15px;
 }
 
-.item{
-  background-color: rgb(26, 23, 23);  
-height: 200px;
-width: 1000px;
-}
-.item1{
-   
+
+
+
+
+
+.item1
+  .heading{
+    text-align: center;
+    color:white ;
+    font-size: 50px;
         background-color: rgb(7, 7, 6);  
-        border-radius: 60%; 
-        height: 150px;
+        border-radius: 50%; 
+        height: 100px;
         width: 1900px;
-        
-        
-
 }
-
-.item2{
+        
+      .item2{
     background-color: rgb(255, 255, 255); 
     display: inline-flex;
+
     height: 400px;
     width: 1900px;
     
-    
-
-
-}
- h1{
-     text-align: center;
-     color:white ;
-     font-size: 70px;
-
- }
- h2{
- 
-    color:black ;
-    font-size: 50px;
+  }
+ .popular-title{
+   text-align: center;
+   font-size: 60px;
  }
  #box1{
   width: 400px;   height: 400px;
@@ -56,65 +51,75 @@ width: 1000px;
  #box2{
   position: relative;
   left: 200px;
-
-
- }
- 
    
- h3{
-color: rgb(0, 0, 8);
-   text-align: right;
-   
- }
+    font-size: 50px;
+}
 
-  
- footer{
-background-color: rgb(238, 138, 138);
-text-align: center;
-line-height: 5px;
-border-radius: 20px;
-height: 200px;
- 
- }
- .item7{
-  background-color: rgb(238, 138, 138); 
-  display: inline-flex;
-  height: 60px;
-  width: 2000px;
-
- }
  #box7{
 position: relative;
-left: 1000px;
+left: 900px;
 background-color: rgb(0, 119, 255); 
+border-radius: 100%;
+
 
  }
  #box8{
   position: relative;
-  left: 950px;
+  left: 850px;
   background-color: rgb(0, 119, 255);
+  border-radius: 100%;
  }
  #box9{
   position: relative;
-  left: 900px;
+  left: 800px;
   background-color: rgb(0, 119, 255);
+  border-radius: 100%;
  }
  .container-popular{
 display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns:repeat(3,1fr);
 background-color: ivory;
 grid-gap:  15px;
  
 height: 1000px;
 width: 2000px;
-
 }
+.products{
+  display: grid;
+  grid-template-columns:repeat(3,1fr) ;
+  column-gap: 300px;
+  padding-left: 200px;
+}
+
 .paragraph{
   font-size: 30px;
 }
-#box11{
-height: 40px;
-width: 100px;
- bottom: 200px;
+
+ .tripod{
+height: 300px;
+width: 300px;
+
+ }
+footer{
+  background-color: rgb(238, 138, 138);
+  padding:20px;
+  text-align: center;
+  line-height: 5px;
+  border-radius: 20px;
+  height: 200px;
+
+   
+   }
+
+     
+     
+
+
+.item7{
+ 
+ display: inline-flex;
+ height: 60px;
+ width: 2000px;
+
 }
+ 
